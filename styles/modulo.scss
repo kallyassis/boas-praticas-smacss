@@ -1,0 +1,15 @@
+.produto {
+    &.produto-imagem { 
+        width: 100%;
+    }
+
+    &.produto-nome {
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    &.produto-descricao { 
+        color: gray;
+    }
+} 
+
