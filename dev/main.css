@@ -1,9 +1,3 @@
-.produto .is-destaque {
-  border: 2px solid gold;
-  padding: 8px;
-  background-color: #ffff42;
-}
-
 .produtos {
   max-width: 640px;
   width: 100%;
@@ -13,15 +7,20 @@
   grid-column-gap: 1%;
 }
 
-.produto.produto-imagem {
+.produtoproduto__imagem {
   width: 100%;
 }
-.produto.produto-nome {
+.produtoproduto__nome {
   font-size: 1.2em;
   margin: 8px 0;
 }
-.produto.produto-descricao {
+.produtoproduto__descricao {
   color: gray;
+}
+.produtoem--destaque {
+  border: 2px solid gold;
+  padding: 8px;
+  background-color: #ffff42;
 }
 
 * {
